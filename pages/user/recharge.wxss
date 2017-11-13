@@ -1,0 +1,99 @@
+.charge_top{
+  background:rgb(109,191,249);
+  height:300rpx;
+}
+.selectMenuInput{
+  background: white;
+  width: 500rpx;
+  margin-left:120rpx;
+  margin-top:130rpx;
+  height: 70rpx;
+  border-radius:10rpx;
+  padding-left: 13rpx;
+
+}
+.retu{
+  float: left;
+  /* margin-left: -52rpx; */
+}
+._3dian{
+  float:right;
+  margin-right: 20rpx;
+}
+ .Menu_input{
+  font-weight: 700rpx;
+} 
+.charge_top_text{
+  color: white;
+  font-size: 36rpx;
+  text-align: center;
+}
+.phone_select{
+  margin-top:0rpx;
+  z-index: 100;
+  position: absolute; 
+  margin-left:55%; 
+}
+.select_one{
+  text-align: center;
+  background-color:white; 
+  border: 1rpx solid rgb(109,191,249);
+  width:300rpx; 
+  height:100rpx;
+  line-height:100rpx;
+  color: #606060;
+  /* border-bottom:2rpx solid rgb(255, 255, 255); */
+}
+.selectedV{
+  background: rgb(109,191,249);
+  color: white;
+
+}
+.recordCharge{
+  background: rgb(239,239,239);
+  height: 50rpx;
+  
+}
+.textCharge{
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  color: #606060; 
+  text-align: left;
+}
+
+.chargeMoney{
+  /* background: #ccc; */
+  height: 600rpx;
+}
+
+.moneyTop,.moneyBottom{
+  height: 200rpx;
+}
+.oneMoney,.tenMoney,.threeMoney,.twentyMoney{
+  height: 150rpx;
+  width: 280rpx;
+  border:1rpx solid #D8D8D8;
+  margin-top: 72rpx;
+  box-shadow: 1rpx 1rpx 1rpx #888888;
+  border-radius: 5rpx;
+}
+
+.oneMoney,.tenMoney{
+  float: left;
+  margin-left: 60rpx;
+}
+.twentyMoney,.threeMoney{
+  float: right;
+  margin-right: 60rpx;
+  }
+  .moneyY{
+    margin-left:102rpx;
+    margin-top:20rpx;
+    font-weight: 500;
+  }
+  .moneyY1{
+    margin-left:72rpx;
+    font-size: 32rpx;
+    margin-top:8rpx;
+    color: #505050;
+  }

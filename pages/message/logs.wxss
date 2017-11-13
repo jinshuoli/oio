@@ -1,0 +1,120 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  padding-top:95rpx; 
+}
+.log-item {
+  margin: 10rpx;
+}
+.contacts-bg{
+  width: 100%;
+  height: 30rpx;
+}
+.contact-input-bg{
+  width:100%;
+  height:90rpx;
+  border:1rpx solid #EFEFEF;
+  background-color: #EFEFEF;
+  text-align: left;
+  position:fixed;
+  z-index:1000;
+
+}
+.contact-input{
+  width: 80%;
+  height: 40rpx;
+  margin-left:40rpx; 
+  margin-top: 20rpx;
+  position: relative
+}
+.contact-input input{
+  border-radius: 5rpx;
+  font-size: 24rpx; 
+  padding-left:20rpx; 
+  position: relative;
+}
+.contact-input-add{
+  position: absolute;
+  width: 80rpx;
+  height:80rpx;
+  right: -100rpx;
+  top:0rpx;
+}
+.contact-search-bg{
+  width: 40rpx;
+  height: 40rpx;
+  
+  position: absolute;
+  right: 6rpx;
+  top:6rpx;
+  z-index: 999;
+  background-image:url('https://weixin1.haowaihao.com.cn/static/images/dial/search.png');
+  background-size:40rpx 40rpx;  
+}
+.contact-add-div{
+  display: none;
+  width: 220rpx;
+  height: 140rpx;
+  border: 1rpx solid #6DBFFA;
+  position: absolute;
+  right: -70rpx;
+  background-color:#6DBFFA;
+  opacity: 0.8; 
+  text-align: center;
+  margin-top: 8rpx;
+  border-radius:4rpx; 
+}
+.contact-add-div-open{
+  display: block;
+  z-index: 999;
+}
+.contact-add-div text{
+  display: block;
+  margin: 0 auto;
+  font-size:28rpx;
+  color:#fff; 
+  line-height: 50rpx;
+  margin-top:14rpx;
+}
+.topArrow{
+  border-bottom: 10rpx solid #6DBFFA;
+  border-left: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+  width: 0rpx;
+  height: 0rpx;
+  position: absolute;
+  top:-14rpx;
+  right: 8rpx;
+}
+.contact-list{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+  position: relative;
+}
+.contact-div{ 
+  width: 100%;
+  font-size:32rpx;
+  height: 40rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+.contact-div-name{
+  float: left;
+  width:265rpx;
+  margin-left:8rpx;
+}
+.contact-edit{
+  width: 60rpx;
+  height: 60rpx;
+  
+  position: absolute;
+  right: -10rpx;
+  top:-8rpx;
+  z-index: 888;
+}
+.placeholder-class{
+  font-family: Microsoft YaHei;
+  font-size:26rpx;
+}

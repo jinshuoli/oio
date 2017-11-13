@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<view class="main-box">
+    <view class="forget_top">
+    	<image src="https://weixin1.haowaihao.com.cn/static/images/login/forget_top.png"></image>
+        <view class="forget_top_text">
+            <text>找回密码</text>
+        </view>
+    </view>
+
+    <view class="forget_form">
+
+        <view class="forget_form_input1">
+            <input name="userName" type="number" placeholder="请输入账号" maxlength="11" placeholder-class="login_form_input" bindinput="userNameInput" value="{{userName}}" />
+        </view>
+
+        <view class="forget_form_input2">
+            <input name="code" type="number" placeholder="请输入验证码" placeholder-class="login_form_input" bindinput="passWdInput" />
+        </view>
+
+        <view class="forget_form_input3"  bindtap="getPhoneCode">
+            获取验证码
+        </view>
+        <view class="login_form_row4" bindtap="loginSubmit">
+            提交
+        </view>
+        <view class="login_form_row5" bindtap="loginCancle">
+            取消
+        </view>
+    </view>
+</view>

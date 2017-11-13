@@ -1,0 +1,28 @@
+<!--logs.wxml-->
+<view class="contact-input-bg" style="">
+  <view class="contact-input">
+    <input type="text" name="" value="" bindinput="onKey" placeholder="请输入关键词搜索" placeholder-class="placeholder-class" style="background-color:#FFF" />
+    <view class="contact-search-bg" catchtap="onSearch"></view>
+    <view class="contact-input-add">
+      <image src='https://weixin1.haowaihao.com.cn/static/images/dial/newContacts.png' catchtap="onClickAdd" style="width:70%;height:70%;"  data-id="{{type}}"></image>
+    </view>
+    <view class="contact-add-div {{none}}" data-type="{{type}}">
+      <text catchtap="onPhone">手机通讯录</text>
+      <text catchtap="onSystem">小程序通讯录</text>
+      <view class="topArrow"></view>
+    </view>
+  </view>
+</view>
+<view  class="container log-list">
+   <view style="width:100%" scroll-y="true" bindscrolltoupper="upper">
+    
+    <view wx:for="{{arr}}" wx:for-item="itemName" wx:key="" catchtap="onInfo" data-tel="{{itemName.tel}}" class="contact-list" data-name="{{itemName.name}}">
+      <view class="contact-div">
+        <view class="contact-div-name">{{itemName.name}}</view>
+        <view class="contact-div-phone">{{itemName.tel}}</view>
+      </view>
+    </view>
+  
+    
+   </view>
+</view>

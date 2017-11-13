@@ -1,0 +1,33 @@
+<!--pages/exclusive/addExclusive.wxml-->
+<view class="exclusive-content">
+  <view class="addExclusive-top">
+    <view class="addExclusive-top-search">
+        <view class='whole' bindtap='getdata'>全部归属地</view>  
+       <!-- <view class='whole'>全部归属地</view>  -->
+      <input  type="text" class="addExclusive-top-search-input" confirm-type="search" bindconfirm="onSearch" bindinput="searchInput" value=""/>
+      <view class="addExclusive-top-searchIcon" bindtap="searchSubmit"></view>
+    </view>
+  </view>
+  <!-- 号码显示 -->
+  <scroll-view class="addExclusive-search-content"><!-- selectLi -->
+    <view class="li" bindtap="searchInput" wx:for="{{result}}" wx:for-item="item" wx:for-index="idx" wx:key="" id="{{item}}" bindtap="phoneSelect">
+      <text class="selectLi" wx:if="{{item == sel}}">{{item}}({{key}})</text>
+      <text wx:else>{{item}}({{key}})</text>
+    </view>
+  </scroll-view>
+
+  <view class="addExclusive-button">
+    <button type="default" class="confirm" bindtap="bindStart"> 确定 </button>
+    <button type="default" class="cancel" bindtap="bindEnd"> 取消 </button>
+  </view>
+       <view class='max-Region' hidden='{{flag}}' bindtap='hide'>
+        <scroll-view class='Region' scroll-y="true" scroll-top  bindtap='shows'>
+             <view class='wai' wx:for="{{logs}}" wx:key="index" wx:for-item="value" >
+               <view hidden='{{flag}}' bindtap='region' class='shuju'>
+                  {{value.city}}
+                </view>              
+            </view> 
+              <!-- <view>请先手动搜索</view>   -->
+        </scroll-view> 
+     </view> 
+</view>

@@ -1,0 +1,23 @@
+
+<view class="message_info">{{name}}</view>
+<view class="message_write_bg">
+    <view class="message_add" catchtap="messageAdd"><image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAjCAYAAAAAEIPqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA25pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCMEY0Mjk3NTREQ0NFNDExQTBBM0ZFRUM5MTRCQTY3RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MjEwQzYxMjkxNTAxMUU3OTZBOUQ4Nzk3MEMzMjI2MiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MjEwQzYxMTkxNTAxMUU3OTZBOUQ4Nzk3MEMzMjI2MiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGY2ZTc2YS1iOTEwLWFjNGQtOGUxZS00OGZiZTBiZDJlOTQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjBGNDI5NzU0RENDRTQxMUEwQTNGRUVDOTE0QkE2N0QiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6I81oIAAACl0lEQVR42syYT0hUQRzHn/LyT+oePLgIaogoRkoHw4t6kTyZSrAhmCiC5SG6iof+QBChJ0EEQQ9iKB7qouIhIYoOEZqYdAj0oJSF4GVlJUi313fkF7y2N7Mz8/7s+8GHt7vvzcx3f/P7/WbmZVuWZWSIJjCq0zbbyJydgGHwCuSpNMy0aGZtYBvUBSE6CkwX7e1jV4NPoFumIRv0HhiiKTqTHOwSGAePPfQ863cR1IMHwictPVsBBS4TMSrofwnkixLxp6JH5sENW0zqWBYoE9zvAJ/BVcfGUB7HNSI52EdwTVFgJWgmASzZqigUI5Lj3gYLqeERVwiLqML094NVyxv7p57zsv+Asvnv/RwwCw4lPBOjBK3zMEmHaaZY3wmepyc0k2vG8te+gxjP03mKnigEb0CDzwtSKcsP04NFJxesg9oAVtG7YNr0oKPVAASzCtcF3houl2FmI6BV4rnT8wQyjGP6zFbeC1T+0tk2rQtf7cu4rlWAZ5x7zCPvwCbYp2p0Qlj0DBO8m2aMl+CWrY1r0ZMOv02BGVqEZLwvsqe8PYiu6BqaMvsUDpBnZa1AcK8fzIl2eTp2PyUR2zX6sBx+OwKd4H26ranOZqeHPr/WFOxk67RRSrvq6hwCWkAx+AauuxB5lrJzbJTcJmiJHqBrK2eKZa2ErmOgV6WhTnh0U4XYcRkOv0AfeK7aUFX0FbAG7ngQwxsEzx6CPac/pRoeyZTK4ZexkHnCOySoevqLz2KZE1+Am/T9h5d12g9jJ/xlOo0L9ZkKhd9Puww+gCI3JS8RsOgKWcEiT3fSG6QgXpv9BuUqM24Kjv2VIYjzrLC9gHRVYswQ6zN5oi+GWHSS908egUE6syVDEsdM1xZtGf6zPwIMADjnz78HRWB/AAAAAElFTkSuQmCC"></image> 发短信</view>
+</view>
+<!--
+<view class="message_write_bg">
+    <view class="message_write">
+        <input type="text" name="content" placeholder="请输入短信内容" placeholder-class="input_style" />
+        <view class="message_write_sub"></view>
+    </view>
+</view>
+-->
+<!--
+<view class="message_one_state">未送达！</view>
+-->
+<view class="main-box">
+    <view class="message_one message_right" wx:for="{{datas}}" wx:for-item="itemName" wx:key="" catchtap="oneLine" data-tel="{{itemName.peer_no}}">
+        <view class="message_one_r1">{{itemName.send_time}}</view>
+        <view class="message_one_r2">{{itemName.content}}</view>
+        <view class="clearit"></view>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+<view class="main-box">
+    <view class="list_year">2017年</view>
+    <view class="list_detail" wx:for="{{datas}}" wx:for-item="item" wx:for-index="idx" wx:key="">
+        <view class="list_detail_r1">{{item.acms}}<text class="">{{item.state}}</text></view>
+        <view class="list_detail_r2">{{item.topup_date}}<text>￥{{item.amt/100}}</text></view>
+    </view>
+</view>

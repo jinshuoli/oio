@@ -1,0 +1,34 @@
+<!--pages/exclusive/exclusive.wxml-->
+<view class="exclusive-content">
+  <view class="exclusive-add" catchtap="addExclusive">
+    <view class="exclusive-add-icon">
+      <text>获取专属小号</text>
+    </view>
+  </view>
+  <view class="exclusive-phone">
+    <view class="exclusive-phone-word">
+      <text>本机号码：{{myPhone}}</text>
+    </view>
+  </view>
+  <view class="exclusive-table">
+    <view class="tr">
+      <view class="th thChild-1">序号</view>
+      <view class="th">客户号码</view>
+      <view class="th">专属小号</view>
+      <view class="th">有效期</view>
+    </view>
+    <scroll-view scroll-y bindscrolltolower="lower">
+      <view class="tr" data-cname="{{item.name}}" data-tel="{{item.tel}}" data-acms="{{item.acms}}" data-date="{{item.unsubts}}" catchtap="unbindExclusive" wx:for="{{datas}}" wx:for-item="item" wx:for-index="idx" wx:key="">
+        <view class="td tdChild-1">{{idx+1}}</view>
+        <view class="td tdChild-2" wx:if="{{item.name!=''}}">
+          {{item.name}}
+        </view>
+        <view class="td tdChild-2" wx:else>
+          {{item.tel}}
+        </view>
+        <view class="td tdChild-3">{{item.acms}}</view>
+        <view class="td" style="line-height:45rpx;">{{item.unsubts}}</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

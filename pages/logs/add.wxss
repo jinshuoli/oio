@@ -1,0 +1,68 @@
+/* pages/logs/add.wxss 
+  *
+  * @auther: 没蜡笔的小新是坑
+  * @date:2017-08-17
+*/
+.contact-add{
+  width: 100%;
+  border-top:1rpx solid #E6E6E6;
+  height: 60rpx;
+}
+.contact-add-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  padding-top:20rpx; 
+  text-align: center;
+}
+.contact-content{
+  width: 80%;
+  border-bottom: 1rpx solid #E6E6E6;
+  margin: 0 auto;
+  font-size:28rpx; 
+}
+.contact-content-name{
+  float: left;
+}
+.contact-comtent-val{
+  width: 80%;
+  
+}
+.contact-select{
+  width: 80%;
+  height:60rpx;
+  border: 1rpx solid #E6E6E6;
+ 
+  font-size:28rpx;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 60rpx;
+  position: relative;
+}
+.contact-select-open{
+  display: none;
+  width: 72%;
+  position: absolute;
+  z-index: 999;
+  border: 1rpx solid #E6E6E6;
+  border-top:none; 
+  margin-left: 65rpx;
+}
+.contact-select-open input{
+  width: 80%;
+}
+.contact-select-hide{
+  display: block;
+}
+.contact-select-bg{
+  width: 40rpx;
+  height: 40rpx;
+  border:1rpx solid red;
+  position: absolute;
+  right: 84rpx;
+  top:11rpx;
+}
+button::after{
+  border:0;
+}
+

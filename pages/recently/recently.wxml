@@ -1,0 +1,31 @@
+<!--pages/recently/recently.wxml-->
+<!--
+ * 最近通话页面
+ * author:峥嵘时代科技-无敌皮卡秋
+ * time:2017/07/11
+ -->
+<view class="container">
+  <view scroll-y="true" bindscrolltoupper="upper" class="recentlyList">
+  <view class="classname" style="width:90%;border-bottom:1rpx solid #CBCBCB;margin-left:10%"></view>
+  
+   <view wx:for="{{arr}}" wx:for-item="itemName" wx:key="" class="phoneDiv" catchtap="onclick" data-id="22" data-phone="{{itemName.tel}}">
+      <view class="recenty-one">
+        <view class="recently-text">
+         <text style="font-size:36rpx;">{{itemName.name}}</text>
+         <text class="recently-text-left">{{itemName.city}}</text>
+        </view>
+        <view class="recently-text">
+          <text style="display:block;float:right;">{{itemName.duration}}</text>
+        </view>
+        <view class="recently-text " style="margin-left:46rpx;">
+          <text class="recently-text-right">{{itemName.date}}</text>
+          <text class="recently-text-down">{{itemName.call_time}}</text>
+        </view>
+      </view>
+      <view class="recently-img">
+        <image style="width:30rpx;height:30rpx;" src="{{itemName.call_type}}"></image>
+      </view>
+    </view>
+    
+  </view>
+</view>

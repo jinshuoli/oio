@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="main-box">
+    <view class="login_top">
+    	<image src="https://weixin1.haowaihao.com.cn/static/images/login/top.png"></image>
+    	<view class="login_top_text">
+    		<text>欢迎登录</text>
+    	</view>
+    </view>
+    <view class="login_form">
+        <view class="login_form_input1">
+            <input type="number" name="userName" placeholder="请输入用户名" placeholder-class="login_form_input" bindinput="userNameInput" value="{{userName}}" />
+        </view>
+        <view class="login_form_input2">
+            <input name="passWd" password="true" bindconfirm="onSend" placeholder="请输入密码" placeholder-class="login_form_input" bindinput="passWdInput" value="" />
+        </view>
+        <view class="login_form_row3">
+            <text bindtap="forgetPWD">忘记密码</text>
+             <!-- <text bindtap="registerPWD">注册账号</text>     -->
+        </view>
+        <view class="login_form_row4" bindtap="loginSubmit">
+            登录
+        </view>
+    </view>
+</view>

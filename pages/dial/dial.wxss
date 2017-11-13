@@ -1,0 +1,123 @@
+/**dial.wxss**/
+/**
+ * 拨号页面
+ * author:峥嵘时代科技-无敌皮卡秋
+ * time:2017/06/28
+ */
+
+.container1 {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 175rpx;
+  box-sizing: border-box;
+  font-family: Microsoft YaHei;
+}
+
+
+.phonenum {
+  width: 550rpx;
+  height: 100rpx;
+  margin-top: -180rpx;
+}
+
+.phonenumbox {
+  height: 100%;
+  font-size: 70rpx;
+  text-align: center;
+}
+
+.delButtonState-Show {
+  margin-top: -100rpx;
+  margin-left: 650rpx;
+}
+
+.delButtonState-Show image {
+  width: 55rpx;
+  height: 40rpx;
+}
+
+.delButtonState-Hide {
+  display: none;
+}
+
+.addButtonState-Show {
+  margin-top: -120rpx;
+  margin-left: -650rpx;
+}
+
+.addButtonState-Show image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.addButtonState-Hide {
+  display: none;
+}
+
+.dialKeykeyboard {
+  position: absolute;
+  width: 600rpx;
+  height: 750rpx;
+  margin-top: -5%;
+  padding:0 75rpx;
+}
+
+.keyboardNum {
+  width: 130rpx;
+  height: 130rpx;
+  background-image: -webkit-linear-gradient(0deg, #2aeef5, #009efd);
+  background-image: linear-gradient(0deg, #2aeef5, #009efd);
+  border-radius: 50%;
+  float: left;
+  margin-top: 44rpx;
+  margin-left: 53rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.numNormal {
+  width: 126rpx;
+  height: 126rpx;
+  font-size: 60rpx;
+  background-color: #fff;
+  align-content: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numClick {
+  width: 126rpx;
+  height: 126rpx;
+  font-size: 60rpx;
+  background-color: #dbdbdb;
+  align-content: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.alphabet {
+  font-size: 20rpx;
+  margin-top: -15rpx;
+  margin-left: 5rpx;
+  letter-spacing: 5rpx;
+}
+
+.dial image {
+  position: absolute;
+  width: 130rpx;
+  height: 130rpx;
+  margin-top: 90%;
+  margin-left: -66rpx;
+}

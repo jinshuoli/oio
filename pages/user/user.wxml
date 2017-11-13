@@ -1,0 +1,65 @@
+<!--pages/user/user.wxml-->
+<!--未登录状态-->
+<view class="user-content" style="display:none;">
+  <view class="user-content-div">
+    <view class="user-content-bg">
+      <image src="https://weixin1.haowaihao.com.cn/static/images/toolbar/myselfSelect.png" style="width:100rpx;height:100rpx;"></image>
+    </view>
+    <view class="classname" style="width:100%;height:60rpx;"></view>
+    <button class="user-bth">登录</button>
+  </view>
+</view>
+<!--登录状态-->
+<view class="user-content">
+  <view class="user-header">
+    <view class="user-header-icon">
+          <image src="https://weixin1.haowaihao.com.cn/static/images/toolbar/myselfSelect.png" style="width:80rpx;height:80rpx;"></image>
+    </view>
+    
+  </view>
+  <view class="user-header">
+      <view class="user-header-name">姓名</view>
+      <view class="user-header-title">{{name}}</view>
+    </view>
+  <view class="user-header">
+      <view class="user-header-name">公司名称</view>
+      <view class="user-header-title">{{company}}</view>
+    </view>
+     <view class="user-header">
+      <view class="user-header-name">手机号码</view>
+      <view class="user-header-title">{{ms}}</view>
+    </view>
+     <view class="user-header">
+      <view class="user-header-name">小号号码</view>
+      <view class="user-header-title">{{acms}}</view>
+    </view>
+</view>
+<!--中间层-->
+<view class="user-content-new">
+</view>
+<!--最下层-->
+<view class="user-content-foot">
+  <view class="user-content-list" catchtap="onPrivate">
+    <view class="user-content-title">专属小号</view>
+    <view class="user-contnet-nav"></view>
+  </view>
+   <view class="user-content-list" catchtap="onUserMoney">
+    <view class="user-content-title">账户充值</view>
+    <view class="user-contnet-nav"></view>
+  </view>
+   <view class="user-content-list" catchtap="onUpdatePwd">
+    <view class="user-content-title">修改密码</view>
+    <view class="user-contnet-nav"></view>
+  </view>
+   <view class="user-content-list" catchtap="onAbout">
+    <view class="user-content-title">关于产品</view>
+    <view class="user-contnet-nav"></view>
+  </view>
+  <!-- <view class="user-content-list" catchtap="company">
+    <view class="user-content-title">公司注册</view>
+    <view class="user-contnet-nav"></view>
+  </view> -->
+   <view class="user-content-foot-button">
+      <button class="button-bth" catchtap="loginOut">退出登录</button>
+   </view>
+</view>

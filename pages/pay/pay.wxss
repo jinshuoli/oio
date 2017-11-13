@@ -1,0 +1,96 @@
+.pay_r1{
+    width:100%;
+    height:130rpx;
+    background-color:#6dbffa;
+    padding-top:90rpx;
+}
+.pay_r1_input_area{
+    margin:0 65rpx 0 65rpx;
+    width:620rpx;
+    height:80rpx;
+    background-color:#FFFFFF;
+    border-radius: 6rpx;
+}
+.pay_r1_input_area_right{
+    float:left;
+    width:75rpx;
+    height:80rpx;
+    background:url(https://weixin1.haowaihao.com.cn/static/images/pay/p01.png) center center no-repeat;
+    background-size:35rpx 25rpx;
+}
+.pay_r1_input_area input{
+    float:left;
+    width:505rpx;
+    height:80rpx;
+    padding:0 20rpx;
+    font-family: Microsoft YaHei;
+}
+.pay_r1_input_area_placeholder{
+    font-size:36rpx;
+    color:#7f7f7f;
+    font-family: Microsoft YaHei;
+}
+.pay_r1_input_area_ul{
+    position:absolute;
+    top:170rpx;
+    right:69rpx;
+    width:240rpx;
+    background:#FFFFFF;
+    border-top:1rpx solid #77bff2;
+    box-shadow:6rpx 6rpx 15rpx #D9D9D9;
+}
+.ul_none{
+    display:none;
+}
+.pay_r1_input_area_ul text{
+    float:left;
+    width:100%;
+    line-height:62rpx;
+    border-bottom: 1rpx solid #77bff2;
+    font-size:30rpx;
+    text-align:center;
+    color:#4c4c4c;
+}
+.pay_r2{
+    width:100%;
+    height:60rpx;
+    background:#efefef;
+    border-bottom: 2rpx solid #e5e5e5;
+}
+.pay_r2 text{
+    line-height:60rpx;
+    font-size:28rpx;
+    color:#565656;
+    padding-left:65rpx;
+}
+.pay_r3{
+    width:100%;
+      color:#343434;
+}
+.pay_r3 view{
+    float:left;
+    margin:48rpx 0 22rpx 62rpx;
+    text-align: center;
+    width:280rpx;
+    height:140rpx;
+    border-radius: 8rpx;
+    border:1rpx solid #c1c1c1;
+    padding:10px 0 0 0;
+}
+.pay_r3_f1{
+    float:left;
+    width:100%;
+    font-size:38rpx;
+  
+    line-height:70rpx;
+}
+.pay_r3_f2{
+    float:left;
+    width:100%;
+    font-size:26rpx;
+   /* color:#484848;*/
+}
+.pay-bg{
+  background-color: #6dbffa;
+  color:#FFFFFF !important;
+}

@@ -1,0 +1,65 @@
+/* pages/login/company.wxss */
+.max-box{
+  width: 640rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.forget_form_input {
+  /* margin: 0 55rpx 50rpx 57rpx; */
+  margin: 0 auto;
+  width: 540rpx;
+  height: 70rpx;
+  -moz-box-shadow: 0rpx 2rpx 20rpx #f2f2f2;
+  -webkit-box-shadow: 0rpx 2rpx 20rpx #f2f2f2;
+  box-shadow: 0rpx 2rpx 20rpx #f2f2f2;
+  /* border-radius: 5rpx;
+    background-repeat: no-repeat;
+    background-size: auto 65%;  
+    background-position: 17rpx center;  */
+    margin-bottom: 20rpx;
+}
+.forget_form_input input{
+  margin-left:10rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+  font-size: 30rpx;
+}
+.forget_form_input1 {
+  width: 550rpx;
+  height: 70rpx;
+  margin-bottom: 20rpx;
+  margin-left: 50rpx;
+  font-size: 30rpx;
+  line-height: 70rpx;
+  padding-left: 10rpx;
+  color: #808080;
+}
+/* 选择要上传的图片样式 */
+.forget_form_view1 {
+  width: 250rpx;
+  height: 70rpx;
+  font-size: 25rpx;
+  border: 1rpx solid #6dbffa;
+  border-radius: 7rpx;
+  color: #808080;
+  text-align: center;
+  float: right;
+  /* margin-top: -70rpx; */
+   margin-right: 15rpx;  
+  line-height: 65rpx;
+}
+/* 完成注册样式 */
+.input_form{
+  text-align: center;
+  width: 550rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #6dbffa;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+  margin-top: 50rpx;
+}
+.input_form text{
+  color: #fff;
+  font-size: 35rpx;
+}

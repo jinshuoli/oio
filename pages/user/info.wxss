@@ -1,0 +1,10 @@
+/* pages/user/user.wxss */
+.info{
+    border-top:1rpx solid #info;
+    width:80%;
+    padding:0rpx 10% 20rpx 10%;
+}
+.info text{
+    font-size:28rpx;
+    color:#676767;
+}

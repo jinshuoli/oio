@@ -1,0 +1,84 @@
+{
+  "pages": [
+
+    
+    "pages/login/login",
+    "pages/exclusive/addExclusive",
+    "pages/login/register",
+    "pages/exclusive/exclusive",
+    
+    "pages/login/resetP",
+    "pages/login/forget",
+    
+    "pages/login/password",
+    "pages/login/corporatename",
+    "pages/login/company",
+    "pages/dial/dial",
+
+    "pages/recently/recently",
+
+    "pages/logs/logs",
+    "pages/logs/add",
+    "pages/logs/update",
+
+    "pages/user/user",
+    "pages/user/recharge",
+    "pages/user/info",
+    "pages/user/resetP",
+
+    "pages/pay/list",
+    "pages/pay/pay",
+
+    
+    "pages/exclusive/unbindExclusive",
+    
+
+    "pages/message/add",
+    "pages/message/list",
+    "pages/message/message",
+    "pages/message/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "号外号",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#61b9f9",
+    "list": [
+      {
+        "selectedIconPath": "images/toolbar/callRecordsSelect.png",
+        "iconPath": "images/toolbar/callRecordsNoSelect.png",
+        "pagePath": "pages/recently/recently",
+        "text": "最近通话"
+      },
+      {
+        "selectedIconPath": "images/toolbar/addressbookSelect.png",
+        "iconPath": "images/toolbar/addressbookNoSelect.png",
+        "pagePath": "pages/logs/logs",
+        "text": "通讯录"
+      },
+      {
+        "selectedIconPath": "images/toolbar/dialSelect.png",
+        "iconPath": "images/toolbar/dialNoSelect.png",
+        "pagePath": "pages/dial/dial",
+        "text": "拨号键盘"
+      },
+      {
+        "selectedIconPath": "images/toolbar/messageSelect.png",
+        "iconPath": "images/toolbar/messageNoSelect.png",
+        "pagePath": "pages/message/message",
+        "text": "短信"
+      },
+      {
+        "selectedIconPath": "images/toolbar/myselfSelect.png",
+        "iconPath": "images/toolbar/myselfNoSelect.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  }
+}

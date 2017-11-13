@@ -1,0 +1,24 @@
+<!--pages/login/company.wxml-->
+<view class='max-box'>
+   <view class='forget_form'>
+       <view class='forget_form_input1'>
+         <text>营业执照副本：</text>
+         <view class='forget_form_view1'>上传多证合一营业执照</view>
+       </view>
+       <view class='forget_form_input3 forget_form_input'>
+         <input placeholder='企业名称' />
+       </view>
+       <view class='forget_form_input4 forget_form_input'>
+         <input placeholder='统一信用代码' />
+       </view>
+       <view class='forget_form_input5 forget_form_input'>
+         <input placeholder='法人代表' />
+       </view>
+       <view class='forget_form_input6 forget_form_input'>
+         <input placeholder='法人身份证号码' />
+       </view>
+   </view>
+   <view class='input_form'>
+       <text>完成注册</text>
+   </view>
+</view>

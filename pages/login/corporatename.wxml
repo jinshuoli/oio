@@ -1,0 +1,21 @@
+<!--pages/login/corporatename.wxml-->
+<!-- 公司名注册 -->
+<view class='main-box'>
+  <form class='two-box' bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='input_from'>
+
+    <view class='login_form_input1'>       <input  name="userName" type='number' placeholder='企业简称/编号' placeholder-class='login_form_input' bindinput='passEnterprise' />
+    </view>
+
+    <view class='login_form_input2'>
+      <input name="userName" type='number' placeholder='用户名称' placeholder-class='login_form_input' bindinput='passName' />
+    </view>
+    
+  </view>
+    <view class='botton' bindtap=''>
+      <button class='weui-btn' type="primary" formType="submit" bindtap='nextstep'>
+        完成注册
+      </button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,22 @@
+.list_year{
+    width:100%;
+    height:40rpx;
+    line-height:40rpx;
+    background:#eaeaea;
+    border-bottom:1rpx solid #dfdfdf;
+    font-size:26rpx;
+    color:#323232;
+    text-indent:40rpx;
+}
+.list_detail{
+    padding:25rpx 40rpx;
+    width:670rpx;
+    border-bottom:1rpx solid #dfdfdf;
+}
+.list_detail text{ float:right; line-height:44rpx;}
+.list_detail_r1{ font-size:30rpx; color:#3c3c3c; line-height:44rpx;}
+.list_detail_r1 text{ font-size:26rpx;}
+.list_detail_r2{ font-size:24rpx; color:#898989; line-height:44rpx;}
+.list_detail_r2 text{ font-size:34rpx; color:#df5745;}
+.list_detail_r3{ font-size:24rpx; color:#4c4c4c; line-height:44rpx;}
+.list_detail_red{ color:#ad3c39;}

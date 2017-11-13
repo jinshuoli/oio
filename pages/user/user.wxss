@@ -1,0 +1,110 @@
+/* pages/user/user.wxss */
+page{
+  background-color: #F9F9F9;
+}
+.user-content{
+  width: 100%;
+  height: auto;
+  border-top:1rpx solid #E6E6E6; 
+  position: relative; 
+  background-color: #fff;
+}
+.user-content-div{
+  width: 400rpx;
+  height: 300rpx;
+  
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin-top:-150rpx;
+  margin-left: -200rpx; 
+}
+.user-content-bg{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+}
+
+.user-bth{
+  width: 300rpx;
+  height: 80rpx;
+  background-color: #6DBFFA;
+  line-height: 80rpx;
+  color: #fff;
+}
+.user-content-new{
+  width: 100%;
+  height: 20rpx;
+  border-top:1rpx solid #E6E6E6;
+  background-color:#EBEBEB; 
+}
+.user-content-foot{
+  width: 100%;
+  height:565rpx;
+}
+.user-content-list{
+  width: 100%;
+  height: 100rpx;
+  border-top:1rpx solid #D5D5D5;
+}
+.user-content-title{
+  width: 50%;
+  float: left;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  color:#575757;
+  margin-left:40rpx; 
+}
+.user-contnet-nav{
+  width: 30rpx;
+  height: 40rpx;
+  
+  float: right;
+  margin-top:25rpx; 
+  margin-right: 40rpx;
+  background-image:url('https://weixin1.haowaihao.com.cn/static/images/toolbar/nav.png');
+  background-size:30rpx 40rpx; 
+}
+.user-content-foot-button{
+  margin-top: 40rpx;
+  width: 100%;
+  height: auto;
+}
+.button-bth{
+  width: 70%;
+  height: 100rpx;
+  line-height: 100rpx;
+  color:#fff;
+  background-color:#6DBFFA; 
+}
+.user-header{
+  margin: 0 auto;
+  width: 90%;
+  height: 100rpx;
+  border-bottom:1rpx solid #EBEBEB;
+  font-size:28rpx;
+}
+.user-header-icon{
+  width: 80rpx;
+  height: auto;
+ 
+  margin: 0 auto;
+  margin-top:10rpx; 
+}
+.user-header-name{
+  width: 40%;
+  height: 80rpx;
+  float: left;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+.user-header-title{
+  font-size:28rpx;
+  float: right;
+  line-height:100rpx;
+  color:#9A9A9A;
+}
+button::after{
+  border:0;
+}

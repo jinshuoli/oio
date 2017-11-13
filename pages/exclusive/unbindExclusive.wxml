@@ -1,0 +1,29 @@
+<!--pages/exclusive/unbindExclusive.wxml-->
+<view class="exclusive-content">
+  <view class="unbindExclusive-icon"></view>
+  <view class="unbindExclusive-icon-word">解除绑定</view>
+  <view class="unbindExclusive-form">
+    <view class="unbindExclusive-form-view">
+      <view class="unbindExclusive-form-my"></view>
+      <input type="text" value="{{cname}}" style="font-family: Microsoft YaHei;" disabled class="input_class" placeholder-class="input_class" />
+    </view>
+    <view class="unbindExclusive-form-view">
+      <view class="unbindExclusive-form-Customer"></view>
+      <input type="number" value="{{tel}}" style="font-family: Microsoft YaHei;" disabled class="input_class" placeholder-class="input_class" />
+    </view>
+    <view class="unbindExclusive-form-view unbindExclusive-form-special">
+      <view class="unbindExclusive-form-small"></view>
+   
+      <input type="number" value="{{acms}}" style="font-family: Microsoft YaHei;width:85%;" disabled class="input_class" placeholder-class="input_class" />
+      
+    </view>
+    <view class="unbindExclusive-form-view">
+      <view class="unbindExclusive-form-Customer1"></view>
+      <input type="number" value="{{date}}" style="font-family: Microsoft YaHei;" disabled class="input_class" placeholder-class="input_class" />
+    </view>
+    <view class="unbindExclusive-form-button">
+      <button type="default" class="relieve" catchtap="subUnBind" > 解除绑定 </button>
+      <button type="default" class="recharge" catchtap="toPay"> 去充值 </button>
+    </view>
+  </view>
+</view>

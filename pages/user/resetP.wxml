@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class="main-box">
+    <view class="forget_top">
+    	<image src="../../images/toolbar/resetPassword.png"></image>
+        <view class="forget_top_text">
+            <text>修改密码</text>
+        </view>
+    </view>
+    <view class="reset_form">
+        <view class="reset_form_input1">
+            <input name="passwordSet"  type="password" placeholder="请输入密码" placeholder-class="login_form_input_set" bindinput="passOneInput" />
+        </view>
+        <view class="reset_form_input2">
+            <input name="passwordSeTwo" type="password" placeholder="请再次输入密码" placeholder-class="login_form_input_set" bindinput="passTwoInput" />
+        </view>
+
+  
+        <view class="login_form_reset4" bindtap="loginResetSubmit">
+            提交
+        </view>
+        <view class="login_form_reset5" bindtap="loginResetCancle">
+            取消
+        </view>
+    </view>
+</view> 

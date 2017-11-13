@@ -1,0 +1,30 @@
+<!--dial.wxml-->
+<!--
+ * 拨号页面
+ * author:峥嵘时代科技-无敌皮卡秋
+ * time:2017/06/28
+ -->
+<view class="container">
+  <view class="phonenum">
+    <input class="phonenumbox" bindinput="onSendFocus"  type="number"  value="{{PhoneNum}}" />
+  </view>
+  <view class="addButtonState-{{view}}">
+    <image src="https://weixin1.haowaihao.com.cn/static/images/dial/newContacts.png" bindtap="newContacts"></image>
+  </view>
+  <view class="delButtonState-{{view}}">
+    <image src="https://weixin1.haowaihao.com.cn/static/images/dial/delPhoneNum.png" bindtap="delPhoneNum"></image>
+  </view>
+  <view>
+    <text>{{linkman}}</text>
+  </view>
+  <view class="dialKeykeyboard">
+    <view class="keyboardNum" bindtap="dialKeyboard" wx:for="{{numArr}}" wx:key="">
+      <view class="{{item.changeColor?'numClick':'numNormal'}}" id="{{item.id}}">{{item.id}}
+        <view class="alphabet" id="{{item.id}}" wx:if="{{item.id !=1 && item.id !='✱' && item.id !='#'}}">{{item.alphabet}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="dial">
+     <image src="https://weixin1.haowaihao.com.cn/static/images/dial/dial.png" bindtap="dial"></image> 
+  </view>
+</view>

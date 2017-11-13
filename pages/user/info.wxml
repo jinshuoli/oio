@@ -1,0 +1,6 @@
+<!--pages/user/user.wxml-->
+<view class="main-box">
+    <view class="info">
+        <text>{{info}}</text>
+    </view>
+</view>

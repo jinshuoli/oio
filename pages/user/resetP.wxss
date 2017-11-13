@@ -1,0 +1,92 @@
+/* pages/login/forget.wxss */
+
+.forget_top{
+    width:100%;
+    height:415rpx;
+    text-align: center;
+}
+
+.forget_top image{
+	width:164rpx;
+	height:164rpx;
+	margin-top:60rpx;
+}
+.forget_top_text{
+    width:100%;
+    font-size:38rpx;
+    color:#4d4d4d;
+    line-height:90rpx;
+}
+.reset_form{
+	width:100%;
+	margin-top:70rpx;
+	height:300rpx;
+}
+.reset_form_input1{
+    background:url(https://weixin1.haowaihao.com.cn/static/images/login/input_2.png);
+}
+.reset_form_input2{
+    background:url(https://weixin1.haowaihao.com.cn/static/images/login/input_2.png);
+}
+.reset_form_input1,.reset_form_input2{
+    height:70rpx;
+    -moz-box-shadow:0rpx 2rpx 20rpx #f2f2f2;
+    -webkit-box-shadow:0rpx 2rpx 20rpx #f2f2f2;
+    box-shadow:0rpx 2rpx 20rpx #f2f2f2;
+    border-radius: 5rpx;
+    background-repeat: no-repeat;
+    background-size: auto 65%;  
+     background-position: 17rpx center;  
+}
+.reset_form_input1 {
+    margin:0 55rpx 50rpx 55rpx;
+    width:640rpx;
+}
+
+.reset_form_input1 input{
+  margin-left:97rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+ .reset_form_input2{
+     margin:0 55rpx 50rpx 55rpx; 
+    width:640rpx;
+}
+.reset_form_input2 input{
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left:97rpx;
+
+}
+.login_form_input_set{
+    font-size:30rpx;
+    text-align: left;
+    color:#757575;
+    font-family: Microsoft YaHei;
+}
+
+
+.login_form_reset4{
+    margin-left:55rpx; 
+    width:280rpx;
+    height:80rpx;
+    font-size:36rpx;
+    background:#6dbffa;
+    border-radius: 7rpx;
+    color:#FFF;
+    text-align:center;
+     margin-top: 140rpx;
+    line-height:80rpx;
+}
+.login_form_reset5{
+    margin-left:420rpx; 
+     margin-top: -80rpx; 
+    width:280rpx;
+    height:80rpx;
+    font-size:36rpx;
+    background:#ccc;
+    border-radius: 7rpx;
+    color:#FFF;
+    text-align:center;
+    line-height:80rpx;
+}

@@ -1,0 +1,12 @@
+<view class="main-box">
+    <view class="message_add_r1" catchtap="messageSend">发送</view>
+    <view class="message_add_r2">
+        <view class="message_add_r2_c1">收件人：</view>
+        <input type="text" name="sendto" class="message_add_r2_c2" value="{{name}}" bindinput="callto" />
+        <view class="{{showadd}}" catchtap="selectPeople" ></view>
+    </view>
+    <view class="message_add_r3">内容：</view>
+    <view class="message_add_r4">
+        <textarea name="sendto" class="message_add_content" value="" placeholder="填写内容(12-250字)" bindinput="charChange" maxlength="250" auto-focus />
+    </view>
+</view>

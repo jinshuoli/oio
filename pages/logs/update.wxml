@@ -1,0 +1,48 @@
+<!--pages/logs/update.wxml-->
+<!--add.xml-->
+<view class="contact-add">
+</view>
+<view class="contact-add-list">
+  <view style="width:100%;height:40rpx;"></view>
+  <view class="contact-content">
+    <view class="classname">
+      <view class="contact-content-name">姓名</view>
+      <view class="contact-comtent-val">
+        <input type="text" name="" bindinput="onSetName" value="{{name}}"/>
+      </view>
+    </view>
+  </view>
+  <view style="width:100%;height:60rpx;"></view>
+   <view class="contact-content">
+    <view class="classname">
+      <view class="contact-content-name">电话</view>
+      <view class="contact-comtent-val">
+        <input type="number" name="" value="{{phone}}" bindinput="onSetTel" />
+      </view>
+    </view>
+  </view>
+  
+</view>
+<view  class="contact-add-list">
+  <view class="section">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      专属小号：{{array[index]}}
+    </view>
+  </picker>
+  
+</view>
+<view class="classname" style="width:100%;height:10rpx;"></view>
+<view class="content-invaild">
+    <view class="{{contype}}">
+       <text>该小号已失效,</text>
+    <text style="color:blue;" catchtap="onChange">去充值</text>
+    </view>
+   
+  </view>
+  <view class="" style="margin-top:60rpx;">
+  <button type="default" form-type="submit" catchtap="onSub"  style="background-color:#6DBFFA;width:350rpx;height:40rpx;height:89rpx;line-height:89rpx;color:#fff;font-size:30rpx;border:0">保存信息</button>
+   <view class="classname" style="width:100%;height:30rpx;"></view>
+   <button type="default" catchtap="onDelete"   style="background-color:#BFC4C8;width:350rpx;height:89rpx;line-height:89rpx;color:#fff;font-size:30rpx;border:1rpx solid #FFF">删除联系人</button>
+  </view>
+</view>

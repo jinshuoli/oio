@@ -1,0 +1,46 @@
+<!--pages/login/login.wxml-->
+<view class="main-box">
+    <view class="charge_top">
+        <view class="charge_top_text">
+           <text class="retu"> 《  </text>
+            <text>账户充值</text>
+             <text class="_3dian">...</text>
+        </view>
+        <view>
+          <input type="text" placeholder="请输入专属小号进行充值"  placeholder-class="Menu_input" class="selectMenuInput" bindtap="selectMenu" value="{{selctVal}}" />
+        </view>
+            <view class="phone_select" hidden="{{selectNum}}">
+              <view class="select_one" bindtap="selectNumber" data-me="15810516999">15810516999</view>
+              <view class="select_one" bindtap="selectNumber" data-me="13696545588">13696545588</view>
+              <view class="select_one" bindtap="selectNumber" data-me="15789666699">15789666699</view>
+            </view>  
+    </view>
+    <view class='recordCharge'>
+      <view class="textCharge">
+        <text class="jilu">充值记录>>></text>
+      </view>
+    </view>
+    <view class="chargeMoney">
+      <view class="moneyTop">
+          <view class="oneMoney">
+            <view class="moneyY">  1元</view>
+            <view class="moneyY1">（7天）</view>
+          </view>
+          <view class="threeMoney">
+            <view class="moneyY">  3元</view>
+            <view class="moneyY1">（1个月）</view>
+          </view>
+      </view>
+       <view class="moneyBottom">
+            <view class="tenMoney">
+              <view class="moneyY">  10元</view>
+              <view class="moneyY1">（3个月）</view>
+            </view>
+            <view class="twentyMoney">
+              <view class="moneyY">20元</view>
+              <view class="moneyY1">（6个月）</view>
+            </view>
+      </view>
+      
+    </view>
+</view>

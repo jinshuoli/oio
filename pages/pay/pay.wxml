@@ -1,0 +1,34 @@
+<loading hidden="{{hiddenLoading}}">正在处理支付请求，请稍后</loading>
+<view class="main-box">
+    <view class="pay_r1">
+        <view class="pay_r1_input_area">
+             <input name="userName" placeholder="请输入专属小号进行充值" placeholder-class="pay_r1_input_area_placeholder" class="pay_r1_input_area_placeholder" value="{{phone}}" /> 
+             <view class="pay_r1_input_area_right"  catchtap="onClickShow"></view> 
+            <view class="pay_r1_input_area_ul {{none}}">
+                 <text catchtap="onPhoneSel" wx:for="{{acms}}" wx:for-item="val" wx:key="" data-phone="{{val}}">{{val}}</text> 
+                <view class="clearit"></view>
+            </view>
+        </view>
+    </view>
+    <view class="pay_r2">
+        <text bindtap="payList">充值记录>></text>
+    </view>
+    <view class="pay_r3">
+        <view class="{{bg1}}"  data-money="1" data-date="7" catchtap="startPay">
+            <text class="pay_r3_f1">1元</text>
+            <text class="pay_r3_f2">(7天)</text>
+        </view>
+        <view class="{{bg3}}" data-money="3" data-date="30" catchtap="startPay">
+            <text class="pay_r3_f1">3元</text>
+            <text class="pay_r3_f2">(1个月)</text>
+        </view>
+        <view class="{{bg10}}" data-money="10" data-date="90" catchtap="startPay">
+            <text class="pay_r3_f1">10元</text>
+            <text class="pay_r3_f2">(3个月)</text>
+        </view>
+        <view class="{{bg20}}" data-money="20" data-date="180" catchtap="startPay">
+            <text class="pay_r3_f1">20元</text>
+            <text class="pay_r3_f2">(6个月)</text>
+        </view>
+    </view>
+</view>
