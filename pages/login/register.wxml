@@ -5,19 +5,16 @@ Small MINNOW
 <view class='main-box'>
   <form class='two-box' bindsubmit='formSubmit' bindreset='formReset'>
     <view class='input_from'>
-
-
       <view class='login_form_input3'>
-        <input name="userName" type='number' placeholder='请输入手机号' placeholder-class='login_form_input' bindinput='passNumber' maxlength='11'/>
+        <input name="regNum" type='number' placeholder='请输入手机号' placeholder-class='login_form_input' bindinput='passNumber' maxlength='11' value='{{regNum}}' />
       </view>
 
       <view class='login_form_input4'>
-        <input name="code" type='number' placeholder='请输入验证码' placeholder-class='login_form_input' maxlength='6' bindinput='passWdInput' />
+        <input name="code" type='number' placeholder='请输入验证码' placeholder-class='login_form_input' maxlength='6' bindinput='passWdInput' value='{{code}}' />
         <view class='register_from_inp1' bindtap='getPhoneCode'>
           获取验证码
         </view>
       </view>
-
     </view>
     <view class='botton' bindtap=''>
       <button class='weui-btn' type="primary" formType="submit" bindtap='nextstep'>

@@ -1,8 +1,8 @@
 {
   "pages": [
-
-    
-    "pages/login/login",
+"pages/login/login",
+    "pages/user/user",
+   
     "pages/exclusive/addExclusive",
     "pages/login/register",
     "pages/exclusive/exclusive",
@@ -21,7 +21,7 @@
     "pages/logs/add",
     "pages/logs/update",
 
-    "pages/user/user",
+    
     "pages/user/recharge",
     "pages/user/info",
     "pages/user/resetP",

@@ -15,7 +15,7 @@
         </view>
         <view class="login_form_row3">
             <text bindtap="forgetPWD">忘记密码</text>
-             <!-- <text bindtap="registerPWD">注册账号</text>     -->
+              <text bindtap="registerPWD">注册账号</text>     
         </view>
         <view class="login_form_row4" bindtap="loginSubmit">
             登录

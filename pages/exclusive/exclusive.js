@@ -103,7 +103,7 @@ Page({
   * @return
  */
     onPullDownRefresh: function () {
-     
+      
       wx.showNavigationBarLoading();//
       wx.showLoading({
         title: '刷新中',

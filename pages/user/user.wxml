@@ -55,10 +55,10 @@
     <view class="user-content-title">关于产品</view>
     <view class="user-contnet-nav"></view>
   </view>
-  <!-- <view class="user-content-list" catchtap="company">
+   <view class="user-content-list" catchtap="company">
     <view class="user-content-title">公司注册</view>
     <view class="user-contnet-nav"></view>
-  </view> -->
+  </view> 
    <view class="user-content-foot-button">
       <button class="button-bth" catchtap="loginOut">退出登录</button>
    </view>

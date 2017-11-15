@@ -1,3 +1,5 @@
 {
-    "navigationBarTitleText": "企业外号"
+    "navigationBarTitleText": "企业外号",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
 }

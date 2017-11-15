@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
 	"appid": "wxd7e3f82150105ba8",
-	"projectname": "%E5%8F%B7%E5%A4%96%E5%8F%B7%E4%BA%8C%E7%89%88",
+	"projectname": "%E5%8F%B7%E5%A4%96%E5%8F%B7",
 	"condition": {
 		"weapp": {
 			"current": -1,
