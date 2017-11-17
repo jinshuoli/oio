@@ -18,7 +18,7 @@ Page({
   // 注册账号
   registerPWD:function(){
     wx.navigateTo({
-      url: '../login/register'
+      url: '../register/register'
     })
   },
   /**

@@ -9,11 +9,11 @@ Small MINNOW
     
     
     <view class='login_form_input5'>
-      <input name="password" type='number' placeholder='密码' placeholder-class='login_form_input' password='ture' maxlength='11' bindinput='passWord' />
+      <input name="paword" type='number' placeholder='密码' placeholder-class='login_form_input' password='ture' maxlength='16' bindinput='pwclick' />
     </view>
 
     <view class='login_form_input3'>
-      <input name="password" type='number' placeholder='再次输入密码' placeholder-class='login_form_input' password='ture' maxlength='11' bindinput='passWord' />
+      <input name="pawordtwo" type='number' placeholder='再次输入密码' placeholder-class='login_form_input' password='ture' maxlength='16' bindinput='pawdclick' />
     </view>
     
   </view>

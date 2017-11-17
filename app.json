@@ -1,18 +1,20 @@
 {
   "pages": [
-"pages/login/login",
+    "pages/register/paword",
+    
+    "pages/login/login",
     "pages/user/user",
    
     "pages/exclusive/addExclusive",
-    "pages/login/register",
     "pages/exclusive/exclusive",
     
     "pages/login/resetP",
     "pages/login/forget",
-    
-    "pages/login/password",
-    "pages/login/corporatename",
     "pages/login/company",
+
+    "pages/register/register",
+    "pages/register/corporatename",
+
     "pages/dial/dial",
 
     "pages/recently/recently",
@@ -21,18 +23,15 @@
     "pages/logs/add",
     "pages/logs/update",
 
-    
     "pages/user/recharge",
     "pages/user/info",
     "pages/user/resetP",
 
     "pages/pay/list",
     "pages/pay/pay",
-
     
     "pages/exclusive/unbindExclusive",
     
-
     "pages/message/add",
     "pages/message/list",
     "pages/message/message",
