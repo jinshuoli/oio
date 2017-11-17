@@ -35,7 +35,7 @@ Page({
       } else if (self.data.paword.length < 6){
         self.windowAlert("密码长度为6-18位");
         return false;
-      } else if (self.data.paword.value === self.data.pawordtwo.value){
+      } else if (self.data.paword === self.data.pawordtwo){
         self.windowAlert("两次密码不同");
         return false;
       }
